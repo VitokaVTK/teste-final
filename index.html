@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Construções</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+        <img id="logo" src="imagens/logo.png" alt="">
+        </a>
+        <a href="login.html" class="irlogin">Entrar</a>
+        
+    </header>
+    <menu id="menuhome">
+        <nav>
+            <ul id="navegacao">
+                <a href="index.html" style="color: #FFFFFF; text-decoration: none;">
+                <li class="box_lista">Início</li>
+                </a>
+                
+                <a href="venda.html" style="color: #FFFFFF; text-decoration: none;">
+                <li class="box_lista">Á Venda</li>
+                </a>
+                <a href="padrao.html" style="color: #FFFFFF; text-decoration: none;">
+                <li class="box_lista">Padrão World</li>
+                </a>
+                <a href="sobre.html" style="color: #FFFFFF; text-decoration: none;">
+                <li class="box_lista">Sobre nós</li>
+                </a>
+            </ul>
+        </nav>
+        
+    </menu>
+    <main>
+
+        <section>
+            <div class="filtros">
+                <h2>Filtros</h2>
+
+  <label>Preço mínimo</label>
+  <input type="range" id="preco-min" min="0" max="1000000">
+
+  <label>Preço máximo</label>
+  <input type="range" id="preco-max" min="0" max="1000000">
+
+  <label>Quartos</label>
+  <select id="quartos">
+    <option>Qualquer</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4+</option>
+  </select>
+
+  <label>Banheiros</label>
+  <select id="banheiros">
+    <option>Qualquer</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3+</option>
+  </select>
+
+  <label>Vagas</label>
+  <select id="vagas">
+    <option>Qualquer</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3+</option>
+  </select>
+
+  <label>Tipo de imóvel</label>
+  <select id="tipo">
+    <option>Qualquer</option>
+    <option>Casa</option>
+    <option>Apartamento</option>
+    <option>Sobrado</option>
+  </select>
+
+  <label>Área (m²)</label>
+  <input type="range" id="area"  min="0" max="1000">
+
+  <div class="checkboxes">
+    <label><input type="checkbox"> Piscina</label>
+    <label><input type="checkbox" > Churrasqueira</label>
+    <label><input type="checkbox" > Jardim</label>
+    <label><input type="checkbox" > Varanda</label>
+  </div>
+
+  <button class="btn-aplicar">Aplicar</button>
+</div>
+        </section>
+
+        <section class="configcard">
+            <article class="card">
+                <a href="produto.html" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 1.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 2.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 3.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 4.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+        </section>
+        <section class="configcard">
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 5.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 6.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 7.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 8.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+        </section>
+        <section class="configcard">
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 9.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 10.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 11.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 12.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+        </section>
+        <section class="configcard">
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 14.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 15.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 16.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" style="text-decoration: none;"><img class="imgcard" src="imagens/casa 17.jpg">
+                    <h1 class="titulo_card" style="overflow: hidden;">R$229.000</h1>
+                    <div class="descricao">
+                        <img class="icon-card" src="imagens/iconesdescri.png" alt="">
+
+                        <div class="divspan">
+                            <span class="pos1">3</span>
+                            <span class="pos2">2</span>
+                            <span class="pos3">2</span>
+                            <span class="pos4">1</span>
+                            <span class="pos5">1</span>
+                        </div>
+
+                        <img src="icons2.png" alt="">
+                    </div>
+                </a>
+            </article>
+        </section>
+        <!---->
+
+
+    </main>
+
+    <footer>
+        
+
+  <footer class="comando-footer">
+        <div class="footer-subcmd">
+            <div class="footer-sobre">
+                <h4>Sobre Nós</h4>
+                <p>A World é uma empresa que está a mais de 15 anos no mercado oferecendo melhor localização e acabamento para sua obra com menor prazo de entrega. Visite-nos!</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-coluna footer-contato">
+                <h4>Contato</h4>
+                <p>Email: World.emp@hotmail.com</a></p>
+                <p>Telefone: (96) 99186-2605</p>
+                <p>Endereço: Avenida Pedro Lazarino 54B, Macapá, Brasil</p>
+            </div>
+
+            <div class="footer-coluna">
+                <h4>Siga-nos</h4>
+                <div class="footer-redes-sociais">
+                    <a href="https://www.instagram.com/worldconstrucoes?igsh=ZXpjcjU0bXdnMW5o"><img class="img-redes" src="imagens/instagram.png"></a>
+                    <a href="https://www.facebook.com/Worldcconstrucao"><img class="img-redes" src="imagens/facebook.png"></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>&copy; 2025 Vila Sézamo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

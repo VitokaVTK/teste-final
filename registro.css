@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* O body empilha os blocos lado a lado */
+body {
+  background-image: url('Imagens/imgfundo.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+
+
+
+.borda-cadastro{
+  display: flex;
+  z-index: 3;
+  
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 4px 4px  rgba(0, 0, 0, 0.4);
+  border-radius: 21px;
+  width: 80rem;
+  height: 50rem;
+}
+
+/* Parte esquerda da tela (cadastro) */
+.cadastro-container {
+  width: 40%; /* ocupa 40% da tela */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  
+  
+  align-items: center;
+  gap: 20px;
+}
+
+.cadastro-container h2{
+    font-size: 42px;
+}
+
+.user-icon{
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    z-index: 4;
+}
+
+.usuario{
+    
+    width: 250px;
+    height: 40px;
+    padding-left: 35px;
+    padding-top: 8px; 
+    
+    border-radius: 21px;
+    border: transparent;
+    box-shadow: 0 4px 4px  rgba(0, 0, 0, 0.2);
+    
+}
+
+.usuario:focus{
+  outline: none;
+}
+
+.senha{
+    width: 250px;
+    height: 40px;
+    padding-left: 35px;
+    padding-top: 8px; 
+    border-radius: 21px;
+    border: transparent;
+    box-shadow: 0 4px 4px  rgba(0, 0, 0, 0.2);
+    
+}
+.senha:focus{
+    outline: none;
+}
+
+.botao-cadastro {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #1ABC9C;
+    color: #FFFFFF;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.link-registre{
+    font-size: 12px;
+    text-decoration: none;
+    color: #0A2F5C;
+}
+
+
+
+/* Parte direita da tela (roxa) */
+#lateraldireita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55rem;
+  height: 100%;
+  background-color: #0A2F5C;
+  border-radius: 10px;
+}
+
+
+.imgregistro{
+  width: 80rem;
+  position: absolute;
+  
+  
+}
