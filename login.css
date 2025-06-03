@@ -12,7 +12,7 @@ html, body {
 
 /* O body empilha os blocos lado a lado */
 body {
-  background-image: url('Imagens/imgfundo.png');
+  background-image: url('imgfundo.png');
   background-size: cover; 
   background-repeat: no-repeat;
   display: flex;
